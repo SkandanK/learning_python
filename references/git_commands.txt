@@ -1,0 +1,39 @@
+To add Git versioning to a local folder and push it to GitHub, you need to:
+- initialize a local Git repository, 
+- commit your files, 
+- create a new repository on GitHub, 
+- then link and push your code
+
+
+Step A: Initialize Git and Commit Locally
+1. Open your terminal, command prompt, or Git Bash and navigate to your project folder:
+$cd /Users/skandank/Documents/Skandan_Dev/python_self_learn
+
+2. Initialize Git version control:
+$git init -b main
+
+3. Stage all files for tracking:
+$git add .
+
+4. Save your first snapshot:
+$git commit -m "Initial commit"
+
+5. Update email address:
+$git config --global skandan.karthikeyan@gmail.com
+
+Step 2: Create a Repository on GitHub
+1. Log into your GitHub Account.
+2. Click the "+" icon in the top-right corner and select "New repository".
+3. Give your repository a name.
+4. Crucial: Leave "Add a README file", ".gitignore", and "choose a license" unchecked to avoid merge conflicts with your local files.
+5. Click Create repository
+
+Step 3: Link and Push to GitHub
+After creating the online repository, GitHub will display a "Quick Setup" page. 
+Copy the HTTPS or SSH repository URL (it will look like https://github.com)
+
+1. Link your local folder to GitHub:
+$git remote add origin https://github.com/SkandanK/learning_python.git 
+
+2. Push your code:
+$git push -u origin main
