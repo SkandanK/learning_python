@@ -39,6 +39,8 @@ while word != 'exit':
     else:
         continue        # Once you come to continue, you go back to next iteration
     print("You understand the request")
+# 'continue' is used to exit the current iteration and move to the next iteration of the loop
+# 'break' is used to exit the loop entirely and goto the first statement after the poop
 
 age = int(input('Enter your age!'))
 while age > 0:
@@ -51,6 +53,9 @@ while age > 0:
     age = int(input('Enter your age!'))
 
 
-person = input('Enter your name')
-question = input('Are you a magician, yes or no?')
-while person
+# using while loop with list and dictionary
+pets = ['Dog', 'Cat', 'Dog', 'Fish', 'Snake', 'Crow']
+print(pets)
+while 'Dog' in pets:
+    pets.remove('Dog')
+print(pets)

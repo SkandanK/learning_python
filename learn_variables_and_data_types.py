@@ -66,3 +66,11 @@ if answers:
 else:
     print("List is empty")
     
+# Getting user input on the command prompt
+name = input("Please enter your name: ")
+print(f"\nHello, {name}!")
+age = int(input("Please enter your age: ")) 
+print(f"\nHello, your age is {age}!")
+
+# Passing input on the command line can be done using sys.argv
+# Check test/age_ticket_price.py script 
