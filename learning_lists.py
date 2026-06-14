@@ -96,6 +96,6 @@ print(dimensions[0])
 print(dimensions[1])
 
 # Cannot change value of elements
-# dimensions[0] = 250         will result in an error
+# dimensions(0) = 250         will result in an error
 # But you can re-declare the whole tuple
 dimensions = (400, 100)

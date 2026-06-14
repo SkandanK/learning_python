@@ -32,6 +32,8 @@ print(f"'{favorite_lang.rstrip()}''{favorite_lang.lstrip()}''{favorite_lang.stri
 print(3 + 3, 4 - 3, 3 * 3, 6 / 3, 9 ** 3, 2 + 3 * 4, (2 + 3) * 4)
 # Float operators: +, -, *, /, **, %,
 print(3.0 + 3, 4 - 3.0, 3.0 * 3, 6 / 3, 9 ** 3.0, 2 + 3.0 * 4, (2.0 + 3) * 4)
+# Special Numeric Operators: // (for floor division) and % for (remainder)
+print(10 // 3, 10 % 3)
 # Special use of underscore on display ("_")
 universe_age = 14_000_000_000
 print(universe_age)
